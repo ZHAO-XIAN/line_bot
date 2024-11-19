@@ -1,0 +1,8 @@
+[tool.ruff]
+line-length = 120  # 依照自己的專案需求設定
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]  # 至少會加入 I，因為 isort 是必要的
+
+[tool.ruff.format]
+quote-style = "single"  # 依照自己的喜好或專案需求設定
